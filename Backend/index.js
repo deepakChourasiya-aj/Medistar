@@ -14,7 +14,6 @@ const { doctorRouter } = require("./routers/doctor.router");
 const { departmentRouter } = require("./routers/department.router");
 const { appointmentRouter } = require("./routers/appointment.router");
 const { dashboardRouter } = require("./routers/adminDash.router");
-// const { authenticate } = require("./middlewares/authenticator.mw");
 
 
 

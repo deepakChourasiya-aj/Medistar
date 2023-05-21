@@ -131,7 +131,7 @@ appointmentRouter.post("/create/:doctorId", authenticate, async (req, res) => {
       service: "gmail",
       auth: {
         user: "medistar.hospital301@gmail.com",
-        pass: "hoxilrprpqwjbnzi",
+        pass: "inuuywvtlrqvugpp",
       },
     });
     const mailOptions = {
@@ -267,7 +267,7 @@ appointmentRouter.patch(
 
 //!! ADMIN SIDE OPERATIONS------------------------------>
 //  Get All Appointments
-appointmentRouter.get("/all", async (req, res) => {
+appointmentRouter.get("/all", authenticate, async (req, res) => {
   try {
     const appointments = await AppointmentModel.find();
     res.status(200).json({
