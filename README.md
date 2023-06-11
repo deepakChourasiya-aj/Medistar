@@ -23,7 +23,7 @@ The system allows users to create, read, update, and delete records of patients,
 <hr>
 
 ## Features 
--  Authentication
+-  2 factor Authentication
 -  APIValidation
 -  Responsive
 -  Cross Platform
