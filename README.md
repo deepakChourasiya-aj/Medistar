@@ -147,11 +147,11 @@ PATCH /api/appointment/reschedule/:appointmentId
  ### 
 `DOCTORS DATA...`
 
-    {"doctorName":"Abhishek Jaiswal",
-    "email":"abhisek@gmail.com",
+    {"doctorName":"Deepak chourasiya",
+    "email":"deepak1812002@gmail.com",
     "qualifications":"MBBS from AIMS Delhi",
     "experience":"14 years of experience",
-    "phoneNo":"7011144555",
+    "phoneNo":"7999764766",
     "city":"Mumbai",
     "departmentId":1,
     "status":true,
